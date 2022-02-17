@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Source+Serif+4&display=swap');
+body {
+    text-align: center;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Source Serif 4', sans-serif;
+    background-image: url(/images/bg.jpg);
+    background-size: 40%;
+    color: white;
+}
+
+#heading {
+    background-color: black;
+    color: yellow;
+    width: max-content;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 5px 5px 1px yellow;
+}
+
+.container {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border: 2px solid;
+    padding: 2rem;
+    background-color: rgb(27, 26, 26);
+    /* background-color: black; */
+    border: 1px solid yellow;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+#discription {
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    color: white;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+
+.li {
+    margin: 1rem;
+}
+
+label {
+    font-size: larger;
+    padding: 1rem;
+}
+
+input {
+    width: 50px;
+    /* margin: auto; */
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid yellow;
+    font-size: 24px;
+    text-align: center;
+}
+
+#prediction-btn {
+    width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: large;
+    background-color: yellow;
+    color: black;
+    font-family: 'Gideon Roman', cursive;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prediction-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5rem;
+    transition: 0.5s;
+}
+
+#section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#output-box {
+    width: 90%;
+    margin: auto;
+    border: 2px solid yellow;
+    padding: 1rem;
+    border-radius: 5rem;
+    font-size: larger;
+}
+
+#reset-btn {
+    width: 90px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: larger;
+    background-color: red;
+    color: white;
+    font-family: 'Gideon Roman', cursive;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5rem;
+    transition: 0.5s;
+}
+
+.footer {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    color: yellow;
+    border-radius: 10rem;
+    width: max-content;
+    background-color: white;
+}
+
+.footer-item {
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 20px;
+}
+
+.footer-head {
+    display: block;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: black;
+    transition: 0.2s;
+}
