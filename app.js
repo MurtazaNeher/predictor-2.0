@@ -14,7 +14,7 @@ function predictNumber() {
     let prediction;
     if (sum < 9) {
         prediction = 9 - sum;
-        outputBox.innerText = "Your third digit is :" + prediction;
+        outputBox.innerText = "Your third digit is : " + prediction;
     } else if (sum === 9) {
         outputBox.innerText = "Your third digit will be 9 or 0";
     } else {
@@ -24,7 +24,7 @@ function predictNumber() {
         let y = parseInt(sum / 10);
         sum = x + y;
         prediction = 9 - sum;
-        outputBox.innerText = "Your third digit is :" + prediction;
+        outputBox.innerText = "Your third digit is : " + prediction;
 
     }
 }
