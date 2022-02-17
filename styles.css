@@ -174,7 +174,7 @@ input {
         text-align: center;
         margin: auto;
         border: 2px solid;
-        /* padding: 0; */
+        padding: 1rem;
         background-color: rgb(27, 26, 26);
         border: 1px solid yellow;
         box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
